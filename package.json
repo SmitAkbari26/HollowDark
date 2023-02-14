@@ -1,0 +1,26 @@
+{
+  "name": "HollowDark",
+  "displayName": "HollowDark",
+  "publisher": {
+    "name": "Smit Akbari"
+  },
+  "license": "MIT",
+  "description": "The \"hollowdark\" theme could be a dark theme for VSCode that provides a minimalist and streamlined look for the editor. It may use neutral colors like black, white, and gray, and it may have a focus on readability and clarity. The exact design and features of the \"hollowdark\" theme would depend on how it has been implemented by the author.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "icon": "HollowDark.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "HollowDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/HollowDark-color-theme.json"
+      }
+    ]
+  }
+}
