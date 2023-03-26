@@ -9,7 +9,7 @@
     "LICENSE"
   ],
   "description": "The \"hollowdark\" theme could be a dark theme for VSCode that provides a minimalist and streamlined look for the editor. It may use neutral colors like black, white, and gray, and it may have a focus on readability and clarity.",
-  "version": "2.2.0",
+  "version": "2.3.1",
   "keywords": [
     "Hollow Dark",
     "Hollow Dark Theme",
@@ -33,21 +33,12 @@
     "Swift Dark Theme",
     "Swift Theme",
     "Best Dark Theme",
-    "Dark",
-    "Minimalistic",
-    "Minimalistic Dark Theme",
-    "Sleek",
-    "Mysterious",
-    "Futuristic",
-    "Moody",
-    "Shadowy",
-    "Hollow",
-    "Contrasting"
+    "Dark"
   ],
   "engines": {
     "vscode": "^1.75.0"
   },
-  "icon": "img/HollowDarkRB.png",
+  "icon": "img/HollowDark.png",
   "categories": [
     "Themes"
   ],
@@ -59,5 +50,8 @@
         "path": "./themes/HollowDark-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }

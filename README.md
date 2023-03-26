@@ -13,24 +13,24 @@
 
 - Swift
 
-![image](https://user-images.githubusercontent.com/125372245/218947185-290efdff-757f-45bb-bf29-f2387dc2456e.png)
+![image](https://user-images.githubusercontent.com/125372245/227694646-686597c8-f237-415a-a5af-936bcf4bbc73.png)
 
 - C++
 
-![image](https://user-images.githubusercontent.com/125372245/218947253-a2be67d6-723b-4b85-a685-bed0655c24d3.png)
+![image](https://user-images.githubusercontent.com/125372245/227694731-a439b1f4-84ca-4b01-b5b8-3dc7b459001f.png)
 
 - Java
 
-![image](https://user-images.githubusercontent.com/125372245/218947326-dce787b1-55cb-4d4f-abc7-c4cc3df536cc.png)
+![image](https://user-images.githubusercontent.com/125372245/227694511-789777e5-0945-47c6-8563-75dac7afd838.png)
 
 - Python
 
-![image](https://user-images.githubusercontent.com/125372245/218947394-e0ecab34-84df-49b5-aa58-92cf853a2952.png)
+![image](https://user-images.githubusercontent.com/125372245/227694576-dc312bc1-292d-46ba-ad29-852cebc0a1a3.png)
 
 ## Contributing
 
-- If you find any issues or have suggestions for improvements, feel free to open an issue or a pull request on the GitHub repository.
+- If you find any issues or have suggestions for improvements, feel free to open an <a href="https://github.com/SmitAkbari26/HollowDark/issues">issue</a> or a <a href="https://github.com/SmitAkbari26/HollowDark/pulls">pull request</a> on the GitHub repository.
 
 ## License
 
-- This theme is licensed under the MIT License.
+- This theme is licensed under the <a href="https://github.com/SmitAkbari26/HollowDark/blob/master/LICENSE">MIT</a> License.
