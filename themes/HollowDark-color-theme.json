@@ -525,6 +525,16 @@
       }
     },
     {
+      "name": "Object Literal Key JS",
+      "scope": [
+        "meta.object-literal.key.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff5f7a"
+      }
+    },
+    {
       "name": "JSON Key - Level 0",
       "scope": [
         "source.json meta.structure.dictionary.json support.type.property-name.json"
