@@ -8,7 +8,7 @@
     "activityBarBadge.foreground": "#0A0B0E",
     "badge.background": "#7F8C8D",
     "badge.foreground": "#0A0B0E",
-    "breadcrumb.activeSelectionForeground": "#0E1014",
+    "breadcrumb.activeSelectionForeground": "#BDC3C7",
     "breadcrumb.background": "#0A0B0E",
     "breadcrumb.focusForeground": "#BDC3C7",
     "breadcrumb.foreground": "#7e7e7e",
@@ -80,7 +80,7 @@
     "input.border": "#ECF0F110",
     "input.foreground": "#cfd1d3",
     "input.placeholderForeground": "#BDC3C760",
-    "inputOption.activeBackground": "#BDC3C730",
+    "inputOption.activeBackground": "#126ca830",
     "inputOption.activeBorder": "#BDC3C730",
     "inputValidation.errorBorder": "#ff5e57",
     "inputValidation.infoBorder": "#7F8C8D50",
@@ -89,7 +89,7 @@
     "list.activeSelectionForeground": "#ffffff",
     "list.focusBackground": "#2C333F",
     "list.focusForeground": "#7F8C8D",
-    "list.highlightForeground": "#0E1014",
+    "list.highlightForeground": "#ECF0F1",
     "list.hoverBackground": "#1d2025",
     "list.hoverForeground": "#ECF0F1",
     "list.inactiveSelectionBackground": "#0A0B0E30",
@@ -134,6 +134,7 @@
     "peekViewTitleDescription.foreground": "#BDC3C760",
     "pickerGroup.foreground": "#0E1014",
     "progressBar.background": "#0E1014",
+    "quickInput.background": "#0E1014",
     "scrollbar.shadow": "#0A0B0E00",
     "scrollbarSlider.activeBackground": "#0E1014cc",
     "scrollbarSlider.background": "#303030",
@@ -234,7 +235,7 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#ff4757"
+        "foreground": "#fd6c78"
       }
     },
     {
@@ -272,16 +273,14 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#eb4d4b"
+        "foreground": "#b37cff"
       }
     },
     {
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
-        "meta.function-call",
         "variable.function",
-        "support.function",
         "keyword.other.special-method"
       ],
       "settings": {
@@ -351,6 +350,33 @@
       }
     },
     {
+      "name": "Html",
+      "scope": [
+        "entity.name.tag.html"
+      ],
+      "settings": {
+        "foreground": "#ffc048"
+      }
+    },
+    {
+      "name": "PHP",
+      "scope": [
+        "support.function.construct.output.php"
+      ],
+      "settings": {
+        "foreground": "#e58e26"
+      }
+    },
+    {
+      "name": "PHP",
+      "scope": [
+        "support.function.construct.php"
+      ],
+      "settings": {
+        "foreground": "#EF5777"
+      }
+    },
+    {
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
@@ -368,7 +394,29 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#FEA47F"
+        "foreground": "#5e91ff"
+      }
+    },
+    {
+      "name": "Swift",
+      "scope": ["support.function.swift"],
+      "settings": {
+        "foreground": "#EF5777"
+      }
+    },
+    {
+      "name": "Swift",
+      "scope": ["meta.function-call.swift"],
+      "settings": {
+        "foreground": "#2ED573",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Javascript",
+      "scope": ["variable.other.object.js"],
+      "settings": {
+        "foreground": "#2ED573",
       }
     },
     {
@@ -390,6 +438,62 @@
       ],
       "settings": {
         "foreground": "#ef5777"
+      }
+    },
+    {
+      "name": "Python",
+      "scope": [
+        "meta.function-call.generic.python",
+      ],
+      "settings": {
+        "foreground": "#b37cff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python",
+      "scope": [
+        "support.function.builtin.python",
+      ],
+      "settings": {
+        "foreground": "#2ED573"
+      }
+    },
+    {
+      "name": "Ruby",
+      "scope": [
+        "support.function.kernel.ruby",
+      ],
+      "settings": {
+        "foreground": "#2ED573",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Java",
+      "scope": [
+        "keyword.control.java",
+      ],
+      "settings": {
+        "foreground": "#2ED573"
+      }
+    },
+    {
+      "name": "Java",
+      "scope": [
+        "variable.other.object.java",
+      ],
+      "settings": {
+        "foreground": "#E58E26"
+      }
+    },
+    {
+      "name": "Java",
+      "scope": [
+        "storage.type.primitive.java",
+      ],
+      "settings": {
+        "foreground": "#5e91ff"
       }
     },
     {
@@ -526,9 +630,7 @@
     },
     {
       "name": "Object Literal Key JS",
-      "scope": [
-        "meta.object-literal.key.js"
-      ],
+      "scope": ["meta.object-literal.key.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#ff5f7a"
